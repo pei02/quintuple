@@ -1,0 +1,40 @@
+.btn-orange {
+    color: #fff;
+    background-color: #cacaca;
+    border-color: #cacaca;
+  }
+  
+  .btn-orange:hover {
+    color: #fff;
+    background-color: #ff7b00;
+    border-color: #ff7b00;
+  }
+  
+  .btn-orange:focus,
+  .btn-orange.focus {
+    color: #fff;
+    background-color: #ff7b00;
+    border-color: #ff7b00;
+    box-shadow: 0 0 0 0.2rem #ff7b00;
+  }
+  
+  .btn-orange.disabled,
+  .btn-orange:disabled {
+    color: #fff;
+    background-color: #ff9029;
+    border-color: #ff9029;
+  }
+  
+  .btn-orange:not(:disabled):not(.disabled):active,
+  .btn-orange:not(:disabled):not(.disabled).active,
+  .show > .btn-orange.dropdown-toggle {
+    color: #fff;
+    background-color: #ff7b00;
+    border-color: #ff7b00;
+  }
+  
+  .btn-orange:not(:disabled):not(.disabled):active:focus,
+  .btn-orange:not(:disabled):not(.disabled).active:focus,
+  .show > .btn-orange.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem #717171;
+  }
