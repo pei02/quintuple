@@ -38,7 +38,7 @@ export class ResultComponent implements OnInit {
     var _data = this.quontupleList.filter(data => data.week == this.select_value);
     _data.forEach(data => {
       data.class.forEach(vouchers => {
-        if (vouchers.number.indexOf(this.num) != -1) {
+        if (vouchers.number.indexOf(this.num) != -1||vouchers.number.indexOf(this.num.slice(1,3))!=-1) {
           this.result.push(vouchers);
         }
       })
