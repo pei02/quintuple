@@ -15,7 +15,7 @@ export class ResultComponent implements OnInit {
   select_value: string = '';
   result: any = [];
   show:number=0;
-
+  font_color:any=[];
 
   constructor() {
 
@@ -39,7 +39,7 @@ export class ResultComponent implements OnInit {
     _data.forEach(data => {
       data.class.forEach(vouchers => {
         if (vouchers.number.indexOf(this.num) != -1||vouchers.number.indexOf(this.num.slice(1,3))!=-1) {
-          this.result.push(vouchers);
+          this.result.push(vouchers); 
         }
       })
     })
