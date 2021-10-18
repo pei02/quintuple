@@ -10,9 +10,9 @@
             </div>
             <input type="text" class="form-control" id="num" name="num" placeholder="請輸入身份證末2碼或3碼" maxlength="3" min="2"
                 [(ngModel)]="num" (keyup)="inputvail()" [ngClass]="vail">
-                <small class="text-danger mt-2" *ngIf="select_value==''||num==''">*請選擇週期與輸入身份證末2碼or3碼</small>
+                <small class="text-danger mt-2" *ngIf="select_value==''||num==''||vail=='is-invalid'">*請選擇週期與輸入身份證末2碼or3碼(必須為數字)</small>
             <button type="submit" class="btn btn-dark btn-block mt-3" (click)="search()"
-                [disabled]="num.length>=2&&select_value!=''?false:true">查詢</button>
+                [disabled]="num.length>=2&&select_value!=''&&vail=='is-valid'?false:true">查詢</button>
         </div>
         <div class="my-3">  
             <div class="mb-4" *ngIf="show==1">
