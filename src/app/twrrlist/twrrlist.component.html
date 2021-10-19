@@ -1,0 +1,41 @@
+<div class="my-3">
+    <div class="w-100 text-center">
+        <img src="../../assets/img/twrr.png" style="width: 200px;">
+    </div>
+    <h3 class="text-center text-white font-weight-bolder mt-2">地方創生券商家查詢<br>
+        <h6 class="text-center text-danger mt-2">僅供參考,請依官方公告為主</h6>
+    </h3>
+    <div class="row">
+        <div class="col-md-4 my-1">
+            <select class="form-control" id="City" [(ngModel)]="select_city">
+                <option selected disabled value="所有縣市">所有縣市</option>
+                <option *ngFor="let city of cityList" [value]="city">{{city}}</option>
+            </select>
+        </div>
+        <div class="col-md-6 my-1">
+            <input type="text" class="form-control" id="story" placeholder="請輸入商家名稱" [(ngModel)]="search_storyname">
+        </div>
+        <div class="col-md-2 my-1">
+            <button type="submit" class="btn btn-dark btn-block" (click)="search()"><i
+                    class="fas fa-search mr-2"></i>查詢</button>
+        </div>
+    </div>
+    <h6 class="text-right font-weight-bolder mt-3">共{{result.length}}筆資料</h6>
+    <div class="row">
+        <div class="col-md-4 my-2" *ngFor="let twrrlist of result">
+            <div class="card h-100">
+                <div class="card-body" style="min-height: 200px;">
+                    <h5 class="card-title font-weight-bolder">{{twrrlist.store}}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">{{twrrlist.address}}<a
+                            [href]="'https://www.google.com.tw/maps/place/'+twrrlist.address" class="ml-2 text-warning"
+                            target="_blank"><i class="fas fa-map-marked-alt"></i></a></h6>
+                    <p class="card-text">{{twrrlist.product}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <button type="button" class="btn text-white font-weight-bolder btn-sm" style="background-color: #ff7b00;"
+            (click)="toTop()"><i class="fas fa-angle-double-up mr-2"></i>回到頂端</button>
+    </div>
+</div>

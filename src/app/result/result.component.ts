@@ -46,7 +46,6 @@ export class ResultComponent implements OnInit {
   search() {
     this.result = [];
     this.lottery_num=this.num.length<3?"*"+this.num:this.num;
-    console.log(this.lottery_num);
     var _data = this.quontupleList.filter(data => data.week == this.select_value);
     _data.forEach(data => {
       data.class.forEach(vouchers => {
