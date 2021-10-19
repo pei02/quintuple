@@ -8,7 +8,7 @@
     <div class="row">
         <div class="col-md-4 my-1">
             <select class="form-control" id="City" [(ngModel)]="select_city">
-                <option selected disabled value="所有縣市">所有縣市</option>
+                <option selected value="所有縣市">所有縣市</option>
                 <option *ngFor="let city of cityList" [value]="city">{{city}}</option>
             </select>
         </div>
