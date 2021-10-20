@@ -86,6 +86,30 @@ export const quontupleList = [
         "remark": "須符合數位綁定資格，數位綁定為臺灣Pay合作之金融卡者於11/5搶先使用",
         "use": "僅適用於原住民族委員會認證店家",
         "website": "https://explorethesun.tw/cipshop/"
+      },
+      {
+        "voucher": "農遊券",
+        "denomination": "888",
+        "number": ["50","13"],
+        "remark": "",
+        "use": "農村好物、農社企業者、休閒農場、農漁特產銷售據點、森林遊樂區",
+        "website": "https://888.coa.gov.tw/"
+      },
+      {
+        "voucher": "藝Fun券(數位)",
+        "denomination": "600",
+        "number": ["78","00","39","22","61","23","15"],
+        "remark": "符合五倍券資格者均可參加抽籤",
+        "use": "適用於全國藝文場域及藝文店家，包含藝文展演預購票券",
+        "website": "https://artsfunnext.moc.gov.tw/"
+      },
+      {
+        "voucher": "藝Fun券(紙本)",
+        "denomination": "600",
+        "number": ["37","76","31","06","51","65","81"],
+        "remark": "符合五倍券資格，且須為18歲以下、65歲以上或身心障礙者可參加抽籤",
+        "use": "適用於全國藝文場域及藝文店家，包含藝文展演預購票券",
+        "website": "https://artsfunnext.moc.gov.tw/"
       }
     ]
   },

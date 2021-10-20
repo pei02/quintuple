@@ -8,7 +8,7 @@ import { twrrList } from './twrrlist.const'
 })
 export class TwrrlistComponent implements OnInit {
 
-  twrrList = twrrList;
+  twrrList = twrrList.reverse();
   cityList: any = [];
   select_city: any = "所有縣市";
   search_storyname: any = "";
