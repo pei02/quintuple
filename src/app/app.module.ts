@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { NavItemComponent } from './nav-item/nav-item.component';
 import { ResultComponent } from './result/result.component';
 import { TwrrlistComponent } from './twrrlist/twrrlist.component';
+import { MailtoComponent } from './mailto/mailto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavItemComponent,
     ResultComponent,
-    TwrrlistComponent
+    TwrrlistComponent,
+    MailtoComponent
   ],
   imports: [
     FormsModule,
