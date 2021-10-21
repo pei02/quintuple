@@ -1,12 +1,16 @@
 <div class="col-md-4 offset-md-4">
     <h1 class="text-center text-white font-weight-bolder mt-2">意見回饋<br>
     </h1>
-    <form class="contact-form mt-3" (submit)="sendEmail($event)"  action="?" method="POST">
+    <form class="contact-form mt-3" (submit)="sendEmail($event)">
         <div class="form-group">
-            <textarea name="message" class="form-control"  rows="10" placeholder="請留下改善建議或您想說的話" [(ngModel)]="content"></textarea>
+            <textarea name="message" class="form-control" rows="10" placeholder="請留下改善建議或您想說的話"
+                [(ngModel)]="content"></textarea>
         </div>
-        <div class="g-recaptcha" data-sitekey="6LeKEeUcAAAAANgBZTE9UejFaKmfITZ1kvxyxAjg"></div>
-        <br/>
-        <input type="submit" value="送出" class="btn btn-dark btn-block"  [disabled]="content.length>=1?false:true">
-      </form>
+
+        <div class="g-recaptcha" data-sitekey="6LeKEeUcAAAAANgBZTE9UejFaKmfITZ1kvxyxAjg" data-theme="light"
+            data-size="normal" data-callback="verify" data-expired-callback="expired" data-error-callback="error">
+        </div>
+        <br />
+        <input type="submit" value="送出" class="btn btn-dark btn-block" [disabled]="content.length>=1?false:true">
+    </form>
 </div>

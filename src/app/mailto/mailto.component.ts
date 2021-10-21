@@ -13,12 +13,9 @@ export class MailtoComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    
   }
 
-  clear() {
-
-
-  }
 
   sendEmail(e: Event) {
     var yes = confirm('確定送出?');
