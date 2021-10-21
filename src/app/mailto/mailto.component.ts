@@ -9,13 +9,13 @@ import emailjs, { EmailJSResponseStatus } from 'emailjs-com';
 export class MailtoComponent implements OnInit {
 
   content: any = "";
+  today:any;
 
   constructor() { }
 
   ngOnInit(): void {
-    
+   
   }
-
 
   sendEmail(e: Event) {
     var yes = confirm('確定送出?');
