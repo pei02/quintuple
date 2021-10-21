@@ -1,19 +1,23 @@
-<div class="mt-5">
+<div>
     <h1 class="text-center text-white font-weight-bolder mt-2">加碼券查詢平台<br>
         <h6 class="text-center text-danger">僅供參考,請依官方公告為主</h6>
     </h1>
     <div class="mt-3">
         <div class="mb-3 offset-md-3 col-md-6">
             <div class="btn-group btn-group-toggle w-100 my-3" data-toggle="buttons">
+                <label class="btn btn-orange active"
+                    (click)="radiobutton_value('all')">
+                    <input type="radio" value="all"><strong>All</strong>
+                </label>
                 <label class="btn btn-orange" *ngFor="let option of options;let i=index"
                     (click)="radiobutton_value(i+1)">
                     <input type="radio" value="{{option}}"><strong>第{{i+1}}週</strong>
                 </label>
             </div>
-            <input type="text" class="form-control" id="num" name="num" placeholder="請輸入身份證末2碼或3碼" maxlength="3" min="2"
+            <input type="text" class="form-control" id="num" name="num" placeholder="請輸入身份證末3碼" maxlength="3" min="2"
                 [(ngModel)]="num" (keyup)="inputvail()" [ngClass]="vail">
             <small class="text-danger mt-2"
-                *ngIf="select_value==''||num==''||vail=='is-invalid'">*請選擇週期與輸入身份證末2碼or3碼(必須為數字)</small>
+                *ngIf="select_value==''||num==''||vail=='is-invalid'">*請輸入身份證末3碼(必須為數字)</small>
             <button type="submit" class="btn btn-dark btn-block mt-3" (click)="search()"
                 [disabled]="num.length>=2&&select_value!=''&&vail=='is-valid'?false:true">查詢</button>
         </div>
@@ -30,6 +34,7 @@
                     </h6>
                     <p style="color:#4F4F4F;font-weight: 600;" class="text-justify">
                         面額：{{lucky.denomination}}<br>
+                        開獎日期：{{lucky.week}}<br>
                         使用範圍：{{lucky.use}}<br>
                         <span class="text-danger font-weight-bold" *ngIf="lucky.remark!=''">※備註：{{lucky.remark}}</span>
    

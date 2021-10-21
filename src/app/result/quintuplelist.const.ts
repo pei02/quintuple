@@ -4,6 +4,7 @@ export const quontupleList = [
     "class": [
       {
         "voucher": "國旅券",
+        "week":"第1週(10/11~10/15)",
         "denomination": "1000",
         "number": ["21", "32", "98", "67", "97", "410"],
         "remark": "",
@@ -12,6 +13,7 @@ export const quontupleList = [
       },
       {
         "voucher": "i原券",
+        "week":"第1週(10/11~10/15)",
         "denomination": "1000",
         "number": ["64", "85"],
         "remark": "須符合數位綁定資格，數位綁定為臺灣Pay合作之金融卡者於11/5搶先使用",
@@ -20,6 +22,7 @@ export const quontupleList = [
       },
       {
         "voucher": "農遊券",
+        "week":"第1週(10/11~10/15)",
         "denomination": "888",
         "number": ["89", "32", "54", "597", "453", "152"],
         "remark": "",
@@ -28,6 +31,7 @@ export const quontupleList = [
       },
       {
         "voucher": "藝Fun券(數位)",
+        "week":"第1週(10/11~10/15)",
         "denomination": "600",
         "number": ["96", "15", "07", "30", "73", "98", "19", "11"],
         "remark": "符合五倍券資格者均可參加抽籤",
@@ -36,6 +40,7 @@ export const quontupleList = [
       },
       {
         "voucher": "藝Fun券(紙本)",
+        "week":"第1週(10/11~10/15)",
         "denomination": "600",
         "number": ["39", "37", "23", "36", "79", "08", "14", "75"],
         "remark": "符合五倍券資格，且須為18歲以下、65歲以上或身心障礙者可參加抽籤",
@@ -44,6 +49,7 @@ export const quontupleList = [
       },
       {
         "voucher": "動滋券",
+        "week":"第1週(10/11~10/15)",
         "denomination": "500",
         "number": ["97", "13", "19", "55", "71", "93", "381", "734", "644", "453", "985"],
         "remark": "",
@@ -52,6 +58,7 @@ export const quontupleList = [
       },
       {
         "voucher": "客庄券",
+        "week":"第1週(10/11~10/15)",
         "denomination": "500",
         "number": ["81", "900"],
         "remark": "",
@@ -60,6 +67,7 @@ export const quontupleList = [
       },
       {
         "voucher": "地方創生券",
+        "week":"第1週(10/11~10/15)",
         "denomination": "500",
         "number": ["081", "105", "594", "188", "089", "396", "521", "467", "912", "798", "358", "441", "367", "941", "335"],
         "remark": "符合五倍券資格者均可參加抽籤，抽中者須以臺灣Pay金融卡消費",
@@ -73,6 +81,7 @@ export const quontupleList = [
     "class": [
       {
         "voucher": "國旅券",
+        "week":"第2週(10/18~10/22)",
         "denomination": "1000",
         "number": ["87","04","40","29","71"],
         "remark": "",
@@ -81,6 +90,7 @@ export const quontupleList = [
       },
       {
         "voucher": "i原券",
+        "week":"第2週(10/18~10/22)",
         "denomination": "1000",
         "number": ["12", "59"],
         "remark": "須符合數位綁定資格，數位綁定為臺灣Pay合作之金融卡者於11/5搶先使用",
@@ -89,6 +99,7 @@ export const quontupleList = [
       },
       {
         "voucher": "農遊券",
+        "week":"第2週(10/18~10/22)",
         "denomination": "888",
         "number": ["50","13"],
         "remark": "",
@@ -97,6 +108,7 @@ export const quontupleList = [
       },
       {
         "voucher": "藝Fun券(數位)",
+        "week":"第2週(10/18~10/22)",
         "denomination": "600",
         "number": ["78","00","39","22","61","23","15"],
         "remark": "符合五倍券資格者均可參加抽籤",
@@ -105,11 +117,30 @@ export const quontupleList = [
       },
       {
         "voucher": "藝Fun券(紙本)",
+        "week":"第2週(10/18~10/22)",
         "denomination": "600",
         "number": ["37","76","31","06","51","65","81"],
         "remark": "符合五倍券資格，且須為18歲以下、65歲以上或身心障礙者可參加抽籤",
         "use": "適用於全國藝文場域及藝文店家，包含藝文展演預購票券",
         "website": "https://artsfunnext.moc.gov.tw/"
+      },
+      {
+        "voucher": "動滋券",
+        "week":"第2週(10/18~10/22)",
+        "denomination": "500",
+        "number": ["91","11","04","18","57","498","756"],
+        "remark": "",
+        "use": "提供做運動、看比賽相關服務之店家",
+        "website": "https://500.gov.tw/"
+      },
+      {
+        "voucher": "客庄券",
+        "week":"第2週(10/18~10/22)",
+        "denomination": "500",
+        "number": ["11","439","841","052","206","161","457","205","012","293","446","589"],
+        "remark": "",
+        "use": "全國11縣市70個客家文化重點發展區指定店家",
+        "website": "https://www.hakka500.tw/"
       }
     ]
   },

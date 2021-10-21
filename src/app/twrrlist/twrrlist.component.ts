@@ -37,9 +37,4 @@ export class TwrrlistComponent implements OnInit {
       this.result = this.twrrList.filter(search => search.city == this.select_city && search.store.indexOf(this.search_storyname) > -1);
     }
   }
-
-  toTop() {
-    window.scrollTo(0, 0);
-  }
-
 }
