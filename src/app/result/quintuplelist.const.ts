@@ -174,7 +174,7 @@ export const quontupleList = [
         "remark": "須符合數位綁定資格，數位綁定為臺灣Pay合作之金融卡者於11/5搶先使用",
         "use": "僅適用於原住民族委員會認證店家",
         "website": "https://explorethesun.tw/cipshop/"
-      },
+      }
     ]
   },
   {
