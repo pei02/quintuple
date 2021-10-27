@@ -170,10 +170,19 @@ export const quontupleList = [
         "voucher": "i原券",
         "week":"第3週(10/25~10/29)",
         "denomination": "1000",
-        "number": ["48", "49"],
+        "number": ["48","49"],
         "remark": "須符合數位綁定資格，數位綁定為臺灣Pay合作之金融卡者於11/5搶先使用",
         "use": "僅適用於原住民族委員會認證店家",
         "website": "https://explorethesun.tw/cipshop/"
+      },
+      {
+        "voucher": "農遊券",
+        "week":"第3週(10/25~10/29)",
+        "denomination": "888",
+        "number": ["60","75"],
+        "remark": "",
+        "use": "農村好物、農社企業者、休閒農場、農漁特產銷售據點、森林遊樂區",
+        "website": "https://888.coa.gov.tw/"
       }
     ]
   },
