@@ -141,8 +141,7 @@ export const quontupleList = [
         "remark": "",
         "use": "全國11縣市70個客家文化重點發展區指定店家",
         "website": "https://www.hakka500.tw/"
-      }
-      ,
+      },
       {
         "voucher": "地方創生券",
         "week":"第2週(10/18~10/22)",
@@ -183,7 +182,8 @@ export const quontupleList = [
         "remark": "",
         "use": "農村好物、農社企業者、休閒農場、農漁特產銷售據點、森林遊樂區",
         "website": "https://888.coa.gov.tw/"
-      },{
+      },
+      {
         "voucher": "藝Fun券(數位)",
         "week":"第3週(10/25~10/29)",
         "denomination": "600",
@@ -209,6 +209,15 @@ export const quontupleList = [
         "remark": "",
         "use": "提供做運動、看比賽相關服務之店家",
         "website": "https://500.gov.tw/"
+      },
+      {
+        "voucher": "客庄券",
+        "week":"第3週(10/25~10/29)",
+        "denomination": "500",
+        "number": ["14","269"],
+        "remark": "",
+        "use": "全國11縣市70個客家文化重點發展區指定店家",
+        "website": "https://www.hakka500.tw/"
       },
     ]
   },
