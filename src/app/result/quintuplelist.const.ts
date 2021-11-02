@@ -242,6 +242,15 @@ export const quontupleList = [
         "use": "適用於合作之旅行業、旅宿業及觀光遊樂業、領有溫泉標章之業者、本局國家風景區管理處主辦促參案商家及經濟部核准之觀光工廠消費折抵",
         "website": "https://1000.taiwan.net.tw/"
       },
+      {
+        "voucher": "i原券",
+        "week":"第4週(11/01~11/05)",
+        "denomination": "1000",
+        "number": ["29","71","82"],
+        "remark": "須符合數位綁定資格，數位綁定為臺灣Pay合作之金融卡者於11/5搶先使用",
+        "use": "僅適用於原住民族委員會認證店家",
+        "website": "https://explorethesun.tw/cipshop/"
+      },
     ]
   },
 ];
