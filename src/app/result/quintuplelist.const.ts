@@ -234,13 +234,14 @@ export const quontupleList = [
     "week": "4",
     "class": [
       {
-        "voucher": "",
-        "denomination": "",
-        "number": "",
+        "voucher": "國旅券",
+        "week":"第4週(11/01~11/05)",
+        "denomination": "1000",
+        "number": ["32","02","87","93","82","17"],
         "remark": "",
-        "use": "",
-        "website": ""
-      }
+        "use": "適用於合作之旅行業、旅宿業及觀光遊樂業、領有溫泉標章之業者、本局國家風景區管理處主辦促參案商家及經濟部核准之觀光工廠消費折抵",
+        "website": "https://1000.taiwan.net.tw/"
+      },
     ]
   },
 ];
