@@ -259,7 +259,25 @@ export const quontupleList = [
         "remark": "",
         "use": "農村好物、農社企業者、休閒農場、農漁特產銷售據點、森林遊樂區",
         "website": "https://888.coa.gov.tw/"
-      }
+      },
+      {
+        "voucher": "藝Fun券(數位)",
+        "week":"第4週(11/01~11/05)",
+        "denomination": "600",
+        "number": ["70","61","37","85","67","35","44"],
+        "remark": "符合五倍券資格者均可參加抽籤",
+        "use": "適用於全國藝文場域及藝文店家，包含藝文展演預購票券",
+        "website": "https://artsfunnext.moc.gov.tw/"
+      },
+      {
+        "voucher": "藝Fun券(紙本)",
+        "week":"第4週(11/01~11/05)",
+        "denomination": "600",
+        "number": ["75","72","71","28","67","82","93","56","34","07"],
+        "remark": "符合五倍券資格，且須為18歲以下、65歲以上或身心障礙者可參加抽籤",
+        "use": "適用於全國藝文場域及藝文店家，包含藝文展演預購票券",
+        "website": "https://artsfunnext.moc.gov.tw/"
+      },
     ]
   },
 ];
