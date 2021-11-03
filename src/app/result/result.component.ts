@@ -1,6 +1,6 @@
 import { ThisReceiver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { quontupleList } from './quintuplelist.const'
+import { quontupleList } from './quintuplelist.const';
 
 @Component({
   selector: 'app-result',

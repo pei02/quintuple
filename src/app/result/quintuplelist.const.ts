@@ -251,6 +251,15 @@ export const quontupleList = [
         "use": "僅適用於原住民族委員會認證店家",
         "website": "https://explorethesun.tw/cipshop/"
       },
+      {
+        "voucher": "農遊券",
+        "week":"第4週(11/01~11/05)",
+        "denomination": "888",
+        "number": ["315","740","381","264","285","765","682","763","373","015","374"],
+        "remark": "",
+        "use": "農村好物、農社企業者、休閒農場、農漁特產銷售據點、森林遊樂區",
+        "website": "https://888.coa.gov.tw/"
+      }
     ]
   },
 ];

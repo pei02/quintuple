@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { NavItemComponent } from './nav-item/nav-item.component';
 import { ResultComponent } from './result/result.component';
 import { TwrrlistComponent } from './twrrlist/twrrlist.component';
+import { LevelComponent } from './level/level.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { TwrrlistComponent } from './twrrlist/twrrlist.component';
     NavItemComponent,
     ResultComponent,
     TwrrlistComponent,
+    LevelComponent,
 
   ],
   imports: [
