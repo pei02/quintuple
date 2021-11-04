@@ -26,6 +26,6 @@ export class LevelComponent implements OnInit {
      })
     })
     this.result=[...new Set(lottery_array)];
-    console.log(this.result)
+    console.log(this.result.rev)
   }
 }

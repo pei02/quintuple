@@ -278,6 +278,15 @@ export const quontupleList = [
         "use": "適用於全國藝文場域及藝文店家，包含藝文展演預購票券",
         "website": "https://artsfunnext.moc.gov.tw/"
       },
+      {
+        "voucher": "動滋券",
+        "week":"第4週(11/01~11/05)",
+        "denomination": "500",
+        "number": ["30","03","51","88"],
+        "remark": "",
+        "use": "提供做運動、看比賽相關服務之店家",
+        "website": "https://500.gov.tw/"
+      },
     ]
   },
 ];
