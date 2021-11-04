@@ -287,6 +287,15 @@ export const quontupleList = [
         "use": "提供做運動、看比賽相關服務之店家",
         "website": "https://500.gov.tw/"
       },
+      {
+        "voucher": "客庄券",
+        "week":"第4週(11/01~11/05)",
+        "denomination": "500",
+        "number": ["69"],
+        "remark": "",
+        "use": "全國11縣市70個客家文化重點發展區指定店家",
+        "website": "https://www.hakka500.tw/"
+      }
     ]
   },
 ];
