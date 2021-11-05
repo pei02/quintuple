@@ -10,10 +10,12 @@ import { quontupleList } from '../result/quintuplelist.const';
 export class LevelComponent implements OnInit {
   quontupleList = quontupleList;
   result:any=[];
+  lucky_number:any;
   constructor() { }
 
   ngOnInit(): void {
     this.lottery_Array();
+this.lucky();
   }
 
   lottery_Array(){
@@ -26,6 +28,20 @@ export class LevelComponent implements OnInit {
      })
     })
     this.result=[...new Set(lottery_array)];
-    console.log(this.result.rev)
+    console.log(this.result.sort())
   }
+
+  lucky(){
+   
+      for(let i=0;i<this.result.length;i++){
+        this.quontupleList.forEach(x=>{
+          x.class.filter(y=>{
+            console.log(y.number.indexOf(this.result[i])>-1)
+          })
+        })
+      }
+
+  }
+
 }
+

@@ -295,6 +295,15 @@ export const quontupleList = [
         "remark": "",
         "use": "全國11縣市70個客家文化重點發展區指定店家",
         "website": "https://www.hakka500.tw/"
+      },
+      {
+        "voucher": "地方創生券",
+        "week":"第4週(11/01~11/05)",
+        "denomination": "500",
+        "number": ["743","201","119","828","221","750","046"],
+        "remark": "符合五倍券資格者均可參加抽籤，抽中者須以臺灣Pay金融卡消費",
+        "use": "適用於地方創生事業相關業者 (獲國發會核准地方創生事業提案之民間事業及本會規範適用條件之業者)",
+        "website": "https://www.twrr.ndc.gov.tw/"
       }
     ]
   },
