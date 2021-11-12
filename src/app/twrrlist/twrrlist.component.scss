@@ -1,0 +1,21 @@
+.update-label{
+    -webkit-animation-name: scaleDraw; /*關鍵幀名稱*/
+    -webkit-animation-timing-function: ease-in-out; /*動畫的速度曲線*/
+    -webkit-animation-iteration-count: infinite;  /*動畫播放的次數*/
+    -webkit-animation-duration: 1s; /*動畫所花費的時間*/
+}
+
+@keyframes scaleDraw {  /*定義關鍵幀、scaleDrew是需要繫結到選擇器的關鍵幀名稱*/
+    0%{
+        transform: scale(1);  /*開始為原始大小*/
+    }
+    25%{
+        transform: scale(1.1); /*放大1.1倍*/
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.1);
+    }
+}
